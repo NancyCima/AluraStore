@@ -11,7 +11,7 @@
 .populares__card {
     background: #fdfdfd;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
@@ -34,7 +34,7 @@
     display: grid;
     grid-area: card-corpo;
     grid-row-gap: .5rem;
-    grid-template-areas: 
+    grid-template-areas:
         "card-header"
         "card-contenido";
     grid-template-rows: 50px auto;

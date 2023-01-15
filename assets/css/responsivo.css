@@ -1,9 +1,12 @@
-/*En el Aula 6 trabajamos con responsividad*/
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .menu__link {
+        color: #333333;
+        padding: .5rem .5rem;
+        font-size: small;
+    }
 
-    .destaques__secundario:nth-child(2), /*puedo poner todo junto*/
+    .destaques__secundario:nth-child(2),
     .destaques__secundario:nth-child(3),
     .destaques__secundario:nth-child(4),
     .destaques__secundario:nth-child(5) {
@@ -14,10 +17,10 @@
 
     .destaques__principal,
     .destaques__categorias {
-        grid-column: 1 / 5; /*que en mobile use todas las columnas*/
+        grid-column: 1 / 5;
 
     }
-    .populares__contenido { /*que se coloque en una sola columna*/
+    .populares__contenido {
         flex-direction: column;
 
     }
@@ -26,24 +29,4 @@
     margin-bottom: 3rem;
     }
 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    ...
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    ...
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    ...
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    ...
 }
